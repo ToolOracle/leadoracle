@@ -1,36 +1,68 @@
-# 🎯 LeadOracle
+# 🎯 leadOracle
 
-**B2B Lead Intelligence MCP Server**
+**Consumer MCP Server** — 7 tools | Part of [ToolOracle](https://tooloracle.io)
 
-7 MCP tools | Part of [ToolOracle](https://tooloracle.io) | Live at `tooloracle.io/lead/mcp/`
+![Tools](https://img.shields.io/badge/MCP_Tools-7-10B898?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
+![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
 
 ## Quick Connect
 
 ```bash
+# Claude Desktop / Cursor / Windsurf
 npx -y mcp-remote https://tooloracle.io/lead/mcp/
 ```
 
-## Tools
+```json
+// claude_desktop_config.json
+{
+  "mcpServers": {
+    "leadoracle": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://tooloracle.io/lead/mcp/"]
+    }
+  }
+}
+```
 
-company_lookup, domain_info, industry_companies, person_search, email_finder, startup_search, health_check
+## Tools (7)
+
+| Tool | Description |
+|------|-------------|
+| `company_lookup` | Look up company details: registration, status, address, incorporation date. |
+| `domain_info` | Domain intelligence: DNS, WHOIS, email patterns, LinkedIn/XING profile. |
+| `industry_companies` | Find companies in a specific industry or sector. |
+| `person_search` | Search for a person's professional profile, Wikipedia info, and news mentions. |
+| `email_finder` | Generate likely email patterns for a person at a domain. |
+| `startup_search` | Find recently founded startups in a sector. |
+| `health_check` | LeadOracle server status. |
 
 ## Pricing
 
-| Tier | Price | Units/month |
-|------|-------|-------------|
-| Free | $0 | 50 |
-| Starter | $49 | 500 |
-| Pro | $149 | 2,000 |
-| Agency | $349 | 6,000 |
+| Tier | Rate Limit | Price |
+|------|-----------|-------|
+| Free | 100 calls/day | €0 |
+| Pro | 10,000 calls/day | €29/month |
+| Enterprise | Unlimited | Custom |
 
-1 unit = $0.01 | x402 USDC micropayments on Base supported
+> Free tier includes all tools with rate limiting. Upgrade for higher limits and priority support.
 
-## About ToolOracle
+## Part of ToolOracle
 
-ToolOracle delivers 24 AI-native intelligence products via MCP. 230+ tools across SEO, crypto, travel, weather, sports, B2B intelligence and more.
+leadOracle is one of **42 specialized MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — the largest collection of production-ready MCP tools for AI agents.
 
-[tooloracle.io](https://tooloracle.io)
 
-## License
 
-MIT
+**Related Oracles:**
+- [FeedOracle](https://feedoracle.io) — Evidence-grade compliance data infrastructure
+- [ToolOracle](https://tooloracle.io) — 42 Oracles, 390+ MCP Tools
+
+## Links
+
+- 🌐 Live: `https://tooloracle.io/lead/mcp/`
+- 📚 Docs: [tooloracle.io/docs](https://tooloracle.io/docs)
+- 🏠 Platform: [tooloracle.io](https://tooloracle.io)
+
+---
+
+*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
