@@ -1,0 +1,1 @@
+{"name": "LeadOracle", "description": "B2B lead intelligence \u2014 7 MCP tools for company lookup, email finder, enrichment", "category": "business", "tags": ["leads", "b2b", "enrichment", "sales"], "tools": 7, "transport": "streamable-http", "endpoint": "https://tooloracle.io/lead/mcp/"}
