@@ -1,0 +1,5 @@
+name: LeadOracle
+description: Lead generation & scoring — 10 tools
+endpoint: https://tooloracle.io/lead/mcp/
+transport: streamable-http
+license: MIT
